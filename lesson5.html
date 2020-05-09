@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 5</title>
+</head>
+<body>
+<script src="lesson5.js"></script>
+<link href="lesson5.css" rel="stylesheet" type="text/css" />
+<h1>hello</h1>
+<h2>Что умеет JS?</h2>
+<button onclick="javascript:EditText('edit', 'Магия вне Хогвардса!')">Проверить!</button>
+<p id="edit">Он умеет меять текст на странице</p>
+<hr>
+<p>Ещё он умеет менять картинки</p>
+<button onclick="javascript:EditImage('img', 'images\\c04e2e11-389e-4e75-967a-585e2e79904f.jpg')">on</button>
+<button onclick="javascript:EditImage('img', 'images/8217646f-8632-4d54-963f-778e3e8a7018.jpg')">off</button>
+<img id="img" src="images/8217646f-8632-4d54-963f-778e3e8a7018.jpg"/>
+<hr>
+<p>Ещё он умеет менять размер текста</p>
+<p id="size">Читаемо?</p>
+<button id='myButton' onclick="javascript:EditSize('size')">увеличить</button>
+<hr>
+<button onclick="javascript:GetDate()">показать дату и время</button>
+<p id="date"></p>
+</body>
+</html>
+
+
